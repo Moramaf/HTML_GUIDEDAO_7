@@ -15,8 +15,6 @@ body {
     align-items: center;
     flex-direction: column;
     margin: 0 auto;
-    background-color: red;
-   
 }
 
 .header {
@@ -31,19 +29,20 @@ body {
 
 .container {
     display: flex;
-    flex-direction: row;
-    padding: 20px;
+    flex-direction: column;
     flex-wrap: wrap;
+    padding: 10px;
     justify-content: center;
+    align-items: center;
     width: 100%
 }
 
 .column {
     display: flex;
     flex-direction: column;
-    margin: 50px;
+    margin: 25px;
     border: 1px solid #000000;
-    /* width: 400px; */
+    max-width: 400px;
 }
 
 .text {
@@ -58,28 +57,25 @@ h4 {
 
 .picture {
     display: inline-block;
-    overflow: hidden; 
+    /* overflow: hidden;  */
+    width:100%;
 }
 
   /* Макет для десктопов */
-  @media only screen and (min-width: 961px) {
+@media only screen and (min-width: 700px) {
+
     /* .page {
       width: 960px;
-      margin: 0 auto;
+    } */
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding: 45px;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%
     }
-    .feature-1,
-    .feature-2,
-    .feature-3 {
-      width: 33.3%;
-    }
-    .header {
-       height: 480px;
-    }
-    .sign_up {
-      height: 200px;
-      order: 1;
-    }
-      .content {
-      order: 2;
-     } */
+
   }
