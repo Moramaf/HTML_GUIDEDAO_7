@@ -15,7 +15,7 @@ body {
     align-items: center;
     flex-direction: column;
     margin: 0 auto;
-    width: 470px;
+    /* width: 470px; */
     
 }
 
@@ -44,8 +44,8 @@ body {
     flex-direction: column;
     margin: 25px;
     border: 1px solid #000000;
-    /* max-width: 400px; */
-    width: 400px;
+    max-width: 400px;
+    /* width: 400px; */
 }
 
 .text {
