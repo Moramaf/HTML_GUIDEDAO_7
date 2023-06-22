@@ -15,6 +15,8 @@ body {
     align-items: center;
     flex-direction: column;
     margin: 0 auto;
+    width: 470px;
+    
 }
 
 .header {
@@ -42,6 +44,7 @@ body {
     flex-direction: column;
     margin: 25px;
     border: 1px solid #000000;
+    /* max-width: 400px; */
     width: 400px;
 }
 
@@ -65,7 +68,7 @@ h4 {
 @media only screen and (min-width: 700px) {
 
     .page {
-      width: 1440px;
+      width: 1400px;
     }
 
     .container {
