@@ -42,7 +42,7 @@ body {
     flex-direction: column;
     margin: 25px;
     border: 1px solid #000000;
-    max-width: 400px;
+    width: 400px;
 }
 
 .text {
@@ -64,9 +64,9 @@ h4 {
   /* Макет для десктопов */
 @media only screen and (min-width: 700px) {
 
-    /* .page {
-      width: 960px;
-    } */
+    .page {
+      width: 1440px;
+    }
 
     .container {
         display: flex;
